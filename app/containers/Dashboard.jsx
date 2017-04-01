@@ -6,7 +6,7 @@ import styles from '../css/components/dashboard';
 
 const cx = classNames.bind(styles);
 
-path.resolve(process.cwd(), 'app/content/dashboard.md');
+const content = require(path.resolve(process.cwd(), 'app/content/dashboard.md'));
 
 const Dashboard = () => (
   <div className={cx('container')}>
