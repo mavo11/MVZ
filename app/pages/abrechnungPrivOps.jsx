@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Page from './Page';
-import AboutContainer from '../containers/About';
+import Page from '../pages/Page';
+import DashboardContainer from '../containers/abrechnungPrivOps';
 
-class About extends Component {
+class AbrechnungPrivOps extends Component {
   getMetaData() {
     return {
       title: this.pageTitle(),
@@ -12,12 +12,12 @@ class About extends Component {
   }
 
   pageTitle() {
-    return 'About | reactGo';
+    return 'Dashboard | reactGo';
   }
 
   pageMeta() {
     return [
-      { name: 'description', content: 'A reactGo example of life' }
+      { name: 'description', content: 'A reactGo example of a dashboard page' }
     ];
   }
 
@@ -28,10 +28,11 @@ class About extends Component {
   render() {
     return (
       <Page {...this.getMetaData()}>
-        <AboutContainer {...this.props} />
+        <DashboardContainer {...this.props} />
       </Page>
     );
   }
 }
 
-export default About;
+export default AbrechnungPrivOps;
+

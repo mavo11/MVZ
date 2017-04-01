@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Page from './Page';
-import VoteContainer from '../containers/Vote';
+import Page from '../pages/Page';
+import DashboardContainer from '../containers/dashboard';
 
-class Vote extends Component {
+class Dashboard extends Component {
   getMetaData() {
     return {
       title: this.pageTitle(),
@@ -12,12 +12,12 @@ class Vote extends Component {
   }
 
   pageTitle() {
-    return 'Vote | reactGo';
+    return 'Dashboard | reactGo';
   }
 
   pageMeta() {
     return [
-      { name: 'description', content: 'A reactGo example of a voting page' }
+      { name: 'description', content: 'A reactGo example of a dashboard page' }
     ];
   }
 
@@ -28,11 +28,11 @@ class Vote extends Component {
   render() {
     return (
       <Page {...this.getMetaData()}>
-        <VoteContainer {...this.props} />
+        <DashboardContainer {...this.props} />
       </Page>
     );
   }
 }
 
-export default Vote;
+export default Dashboard;
 

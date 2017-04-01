@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Page from '../pages/Page';
-import DashboardContainer from '../containers/Dashboard';
+import Container from '../containers/abrechnungAmbOpsKasse';
 
-class Dashboard extends Component {
+class AbrechnungAmbOpsKasse extends Component {
   getMetaData() {
     return {
       title: this.pageTitle(),
@@ -28,11 +28,11 @@ class Dashboard extends Component {
   render() {
     return (
       <Page {...this.getMetaData()}>
-        <DashboardContainer {...this.props} />
+        <Container {...this.props} />
       </Page>
     );
   }
 }
 
-export default Dashboard;
+export default AbrechnungAmbOpsKasse;
 

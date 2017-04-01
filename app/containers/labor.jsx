@@ -5,7 +5,7 @@ import styles from '../css/components/dashboard';
 
 const cx = classNames.bind(styles);
 
-const content = require('../content/Dashboard.md');
+const content = require('../content/labor.md');
 
 const Dashboard = () => (
   <div className={cx('container')}>

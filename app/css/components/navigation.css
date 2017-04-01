@@ -8,6 +8,7 @@
   height: 23px;
   width: 30px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .navigation__hamburger span {
@@ -64,6 +65,8 @@
   transition: all .2s linear;
   background-color: white;
   box-shadow: 1px 0 5px black;
+  z-index: 99;
+  overflow: scroll;
 }
 
 .navigation--active {

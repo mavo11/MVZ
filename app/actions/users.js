@@ -8,7 +8,7 @@ polyfill();
 
 const getMessage = res => res.response && res.response.data && res.response.data.message;
 
-function makeUserRequest(method, data, api = '/login') {
+function makeUserRequest(method, data, api = '/') {
   return request[method](api, data);
 }
 
