@@ -4,7 +4,7 @@ export { default as LoginOrRegister } from 'pages/LoginOrRegister';
 export { default as AbrechnungAmbOpsKasse } from 'pages/abrechnungAmbOpsKasse';
 export { default as AbrechnungPrivOps } from 'pages/abrechnungAmbOpsKasse';
 export { default as AbrechnungStatOpsKasse } from 'pages/abrechnungStatOpsKasse';
-export { default as Adressbuch } from 'pages/Adressbuch';
+export { default as Adressbuch } from 'pages/adressbuch';
 export { default as IgelZiffern } from 'pages/igelZiffern';
 export { default as IvOsteo } from 'pages/ivOsteo';
 export { default as Kassenabrechnung } from 'pages/kassenabrechnung';
