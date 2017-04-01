@@ -1,21 +1,92 @@
 @import '../common/colors';
 @import '../common/typography';
 
-.navigation {
-  padding: 0 28px;
+.navigation__hamburger {
+  position: relative;
+  top: 23px;
+  left: 50px;
+  height: 23px;
+  width: 30px;
+  cursor: pointer;
 }
 
-.item {
-  display: inline-block;
+.navigation__hamburger span {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  display: block;
+  transition: all .2s linear;
+
+}
+
+.navigation__hamburger span:first-of-type {
+  top: 10px;
+}
+
+.navigation__hamburger span:last-of-type {
+  top: 20px;
+}
+
+.navigation__hamburger span:last-of-type {
+  margin-bottom: 0;
+}
+
+.navigation--active ~ .navigation__hamburger{
+  left: 280px;
+  top: 12px;
+}
+
+.navigation--active ~ .navigation__hamburger span:nth-of-type(1){
+  transform: rotate(-45deg);
+  transform-origin: left;
+  top: 21px;
+}
+
+.navigation--active ~ .navigation__hamburger span:nth-of-type(2){
+  display: none;
+}
+
+.navigation--active ~ .navigation__hamburger span:nth-of-type(3){
+  transform: rotate(45deg);
+  transform-origin: left;
+  top: 0;
+}
+
+.navigation {
+  display: block;
+  padding: 0 28px;
+  left: -350px;
+  top: 0;
+  bottom: 0;
+  width: 350px;
+  position: fixed;
+  transition: all .2s linear;
+  background-color: white;
+  box-shadow: 1px 0 5px black;
+}
+
+.navigation--active {
+  left: 0;
+}
+
+.navigation__link {
+  display: block;
   text-decoration: none;
   padding: 16px 32px;
   color: var(--colorBlack);
 }
 
-.logo {
-  font-size: var(--fontHuge);
+.navigation__link:not(.navigation__logo):hover {
+  background-color: #333;
+  color: white;
 }
 
-.active {
+.navigation__logo {
+  font-size: var(--fontHuge);
+  width: 260px;
+}
+
+.navigation__link--active {
   color: var(--colorDodgerBlue);
 }

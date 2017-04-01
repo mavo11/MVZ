@@ -13,26 +13,17 @@ export default (store) => {
     const { user: { authenticated }} = store.getState();
     if (!authenticated) {
       replace({
-        pathname: '/login',
+        pathname: '/',
         state: { nextPathname: nextState.location.pathname }
       });
     }
     callback();
   };
 
-  const redirectAuth = (nextState, replace, callback) => {
-    const { user: { authenticated }} = store.getState();
-    if (authenticated) {
-      replace({
-        pathname: '/'
-      });
-    }
-    callback();
-  };
   return (
     <Route path="/" component={App}>
-      <IndexRoute component={Vote} fetchData={fetchVoteData} />
-      <Route path="login" component={LoginOrRegister} onEnter={redirectAuth} />
+      <IndexRoute component={LoginOrRegister} />
+      <Route component={Vote} fetchData={fetchVoteData} />
       <Route path="dashboard" component={Dashboard} onEnter={requireAuth} />
       <Route path="about" component={About} />
     </Route>

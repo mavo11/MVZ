@@ -6,68 +6,26 @@
 
 .login {
   width: 420px;
-  margin: 0 auto;
+  margin: 100px auto;
   background-color: var(--colorAthensGray);
   border: 2px solid var(--colorMercury);
   border-radius: var(--globalRadius);
+  padding: 20px;
 }
 
-.waiting {
-  .loading {
-    display: block;
-  }
-}
-
-.alternative {
-  background: var(--colorWhite);
-  padding: 12px 8px;
-  font-size: var(--fontMedium);
+.login__headline {
   text-align: center;
 }
 
-.alternative-link {
-  color: var(--colorDodgerBlue);
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.loading {
-  display: none;
-  text-align: center;
-  margin: 24px auto;
-}
-
-.email-container {
-  padding: 16px 12px;
-  border-bottom: 2px solid var(--colorMercury);
-}
-
-.google-container {
-  padding: 16px 12px;
-}
-
-.header {}
-
-.heading {
-  @apply --subHeading;
-  padding: 16px 12px;
-  text-align: center;
-}
-
-.input {
+.login__input {
   @apply --input;
 }
 
-.message {
+.login__error-message {
   color: var(--colorCrimson);
   font-size: var(--fontSmall);
 }
 
-.button {
+.login__submit {
   @apply --greenButton;
-}
-
-.hint {
-  @apply --small;
-  color: var(--colorBombay);
 }
