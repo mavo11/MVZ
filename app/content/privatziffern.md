@@ -52,6 +52,7 @@
 | Actovegin   | 5020 | 
 | Attest / AU    |75 / 70 | 
 |  Analogbewertung der med. Trainingstherapie  |842 | 
+|  Rolimeter |842 |
 | Akupunkturnadel  | | 
 | Aku  | 269a | 
 | Einlagenabdruck  |3310(2) | 
