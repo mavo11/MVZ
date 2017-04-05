@@ -21,7 +21,7 @@
 | Rückenspritze rot/weiß |    |
 | Rückenspritze Meav/Lipo/Traumeel |  \*103, *44, *101,  |
 | Recosyn |    |
-| Zinkleimverband |  207, 204, *70, *71,  |
+| Zinkleimverband |  207, 204, *70, *71, |
 |  |    |
 
 
