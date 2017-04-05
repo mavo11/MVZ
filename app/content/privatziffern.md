@@ -3,11 +3,11 @@
 #### Sonstiges 
 | Bezeichnung        | Ziffernketten / Ziffer           | 
 | ------------- |:-------------| 
-| ACP     |  | 
+| ACP     | 269a, \* | 
 | Akupunktur     |      |  
 | Anleitung Übungen in Eigenregie |  507 / 510    |  
 |   Dauerakupunktur + Kinesio   |   \*40, 207(Kinesiotape/2,50€)   |  
-| Einlagenabdruck |  3310(2)    |   
+| Einlagenabdruck |  3310(2), \*0005    |   
 |   Gipsschienenverband großes Gelenk   |      |  
 |   Gipsschienenverband kleines Gelenk   |      |    
 | Infusion mit Dynastat / Dexa / Ortoton     |      |  
@@ -66,7 +66,7 @@
 | i.m. | 252|
 | i.v. | 253|
 | Konsil |60 (Fachrichtung) |
-| Kinesiotape  | | 
+| Kinesiotape  |207(Kinesiotape/2,50€)  | 
 | Kopie pro Seite |\*0001 | 
 | Lipotalon  | \*103 | 
 | Lochtuch  | | 
