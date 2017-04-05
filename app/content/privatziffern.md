@@ -52,15 +52,19 @@
 | Actovegin   | 5020 | 
 | Attest / AU    |75 / 70 | 
 |  Analogbewertung der med. Trainingstherapie  |842 | 
-|  Rolimeter |842 |
+|  Anleitung von Übungen in Eigenregie  |508 | 
 | Akupunkturnadel  | | 
 | Aku  | 269a | 
 | Einlagenabdruck  |3310(2) | 
-| Sachkosten Abdruck  |  | 
+| Sachkosten Abdruck  | \*0005 | 
+| eingehende therapeutische Besprechung  |804 | 
 | Gipsschiene Kunststoff  | | 
-| Gipsschiene Weißgips  |  | 
+| Gipsschiene Weißgips  |  |
+| Gipsschiene Wiederanlage  | 228 oder 229 | 
 | Handschuhe steril  | | 
-| Injektionsset
+| Injektionsset| |
+| i.m. | 252|
+| i.v. | 253|
 | Konsil |60 (Fachrichtung) |
 | Kinesiotape  | | 
 | Kopie pro Seite |\*0001 | 
@@ -71,13 +75,14 @@
 | Mobilisation  | 3305 / 3306 | 
 | Milgamma  |  | 
 | Mundschutz  | \*0006 | 
+| neurologische Untersuchung  | 800 | 
 |  Physio | 510 | 
 | Porto  | *01000 / *010000 | 
+|  Rolimeter |842 |
 | Wiederholungsrezept  | 2 | 
 |   | \*0002 | 
 |   | \*0003 | 
-|   | \*0004 | 
-|   | \*0005 | 
+|   | \*0004 |  
 |   |\*0007  | 
 |   |\*0008  | 
 
